@@ -1,3 +1,5 @@
 = Nged
 
-This project rocks and uses MIT-LICENSE.
+This project is used to simplify my projects based on angular.  Its not quite ready for use by the public.  Sorry...
+
+Uses MIT-LICENSE.

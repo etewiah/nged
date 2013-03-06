@@ -7,17 +7,19 @@ require "nged/version"
 Gem::Specification.new do |s|
   s.name        = "nged"
   s.version     = Nged::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Nged."
-  s.description = "TODO: Description of Nged."
+  s.authors     = ["Ed"]
+  s.email       = ["africajam@hotmail.com"]
+  s.homepage    = "Http://github.com/etewiah/nged"
+  s.summary     = "Helps me setup angular projects"
+  s.description = "Helps me setup angular projects."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 3.2.12"
   # s.add_dependency "jquery-rails"
+  s.add_dependency "angularjs-rails"
+# gem "angularjs-rails", :group => [:assets]
 
   s.add_development_dependency "sqlite3"
 end
