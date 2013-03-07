@@ -50,12 +50,12 @@
  *
  *   Where:
  *
- *   - `action` â€“ {string} â€“ The name of action. This name becomes the name of the method on your
+ *   - `action` – {string} – The name of action. This name becomes the name of the method on your
  *     resource object.
- *   - `method` â€“ {string} â€“ HTTP request method. Valid methods are: `GET`, `POST`, `PUT`, `DELETE`,
+ *   - `method` – {string} – HTTP request method. Valid methods are: `GET`, `POST`, `PUT`, `DELETE`,
  *     and `JSONP`
- *   - `params` â€“ {object=} â€“ Optional set of pre-bound parameters for this action.
- *   - isArray â€“ {boolean=} â€“ If true then the returned object for this action is an array, see
+ *   - `params` – {object=} – Optional set of pre-bound parameters for this action.
+ *   - isArray – {boolean=} – If true then the returned object for this action is an array, see
  *     `returns` section.
  *
  * @returns {Object} A resource "class" object with methods for the default set of resource actions
